@@ -1,0 +1,35 @@
+name: Publish MusicDev release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'release-requests/*.json'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish from release-requests, for example 0.8.4'
+        required: true
+        type: string
+
+permissions: {}
+
+concurrency:
+  group: musicdev-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify and publish the signed release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node release/publish.mjs
