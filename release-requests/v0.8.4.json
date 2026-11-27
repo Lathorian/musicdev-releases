@@ -1,0 +1,8 @@
+{
+  "installer_url": "https://send.vis.ee/download/4bd82245eb6fabbb/#kKb5R2L_MZXRAdX6MCqEHQ",
+  "manifest": {
+    "signed": "eyJhc3NldCI6Ik11c2ljRGV2LVNldHVwLXg2NC5leGUiLCJwbGF0Zm9ybSI6IndpbmRvd3MteDY0IiwicHJvZHVjdCI6Ik11c2ljRGV2IiwicmVwb3NpdG9yeSI6IkxhdGhvcmlhbi9tdXNpY2Rldi1yZWxlYXNlcyIsInNoYTI1NiI6ImIzYWU4YjI0ZTE5YTc2ZmRjOTQ1NzA0N2MwNjdhMzFhMGJjN2FjNzYwZDI4ZDBlZjFlMTQxODVkZTkyMDdjODgiLCJzaXplIjo1NDM2NzU5MCwidmVyc2lvbiI6IjAuOC40In0=",
+    "signature": "tB9GuwNO/5zpEuu0epIKkIZprndvbPuS0qd23093dNgnm6cBT3AsaQkfMgxCI0Gmb1glA9zGYS40Wtu36gl+Ag=="
+  },
+  "notes": "Fixes Windows startup for libraries with saved Suno recordings or playlists. Run the installer directly if 0.8.3 cannot open.\n\nMusicDev 0.8.4 brings the same player to Library and Studio. When a Suno recording uses embedded playback, you can seek, change volume and use Repeat One from the MusicDev player. The timeline holds the position you select while the audio catches up.\n\nLibrary adds two-column sorting, queue-to-playlist saving and larger artwork. Studio groups takes from successive recording sessions and gives Follow lyrics its own space.\n\nTo upgrade from 0.8.3, open **Library \u2192 Settings \u2192 Check for updates**. For a fresh installation, download **MusicDev-Setup-x64.exe** below."
+}
