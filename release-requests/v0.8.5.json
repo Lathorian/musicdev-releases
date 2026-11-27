@@ -1,0 +1,8 @@
+{
+  "manifest": {
+    "signed": "eyJhc3NldCI6Ik11c2ljRGV2LVNldHVwLXg2NC5leGUiLCJwbGF0Zm9ybSI6IndpbmRvd3MteDY0IiwicHJvZHVjdCI6Ik11c2ljRGV2IiwicmVwb3NpdG9yeSI6IkxhdGhvcmlhbi9tdXNpY2Rldi1yZWxlYXNlcyIsInNoYTI1NiI6IjA2NjllZWQxOGJlMzczMjllYTNiMGQ1YWEyNjFlYzY1YTc3ZTdjYTI2NWVjMjZlNGIwNjUzNDRiZjJkY2ZmMDIiLCJzaXplIjo1NDM3NTkyOSwidmVyc2lvbiI6IjAuOC41In0=",
+    "signature": "agnpZCvFdfFXIibe5bJD8uJ/cVsZvqjpkpblqvVgXQeEYnZVvoNCnCpGpQGCFB2Ftvc6SK/Oi57CTtWwFSXVAA=="
+  },
+  "installer_url": "https://send.vis.ee/download/a26aaa94f9133c2e/#VR0O9zpI6yHFog7cLFx9GQ",
+  "notes": "MusicDev 0.8.5 brings the new cover workflow to Studio and Library.\n\n- Create a square song cover with the title, artist and other selected words designed into the image. Use the song as inspiration, give your own direction, or ask for a revision to an existing cover.\n- From Library, choose Publish on a recording to create artwork for a widescreen YouTube video, a separate thumbnail or a vertical Short.\n- Cover requests keep their connection to the right song. A stalled background window can yield to the next request while preserving its submission record.\n\nOn Windows, open **Library → Settings → Check for updates**, then choose **Update and restart**. In Danish, choose **Bibliotek → Indstillinger → Søg efter opdateringer**."
+}
