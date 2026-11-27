@@ -1,0 +1,8 @@
+{
+  "manifest": {
+    "signed": "eyJhc3NldCI6Ik11c2ljRGV2LVNldHVwLXg2NC5leGUiLCJwbGF0Zm9ybSI6IndpbmRvd3MteDY0IiwicHJvZHVjdCI6Ik11c2ljRGV2IiwicmVwb3NpdG9yeSI6IkxhdGhvcmlhbi9tdXNpY2Rldi1yZWxlYXNlcyIsInNoYTI1NiI6IjQyMWMwYmMwMjY4NjY2NThiYWJkZTlhODM5NDc2ZWNjYzFlMGI5NTRlZmUzZWE2NTM5NmUxNWM4YmQxMmE4NWUiLCJzaXplIjo1NDM3NjM2NSwidmVyc2lvbiI6IjAuOC42In0=",
+    "signature": "2rFZYhPkhPT1xIW4Q7xGEV3CpmiRvUrWYRaqdLTM3zMyniI9DYp4g2quDMSmCE3aheDjsOyQRdCoK6mOs1FCBg=="
+  },
+  "installer_url": "https://send.vis.ee/download/502a63c07b9e8c8a/#e8Jv7xFKQur9StnRQOWvBw",
+  "notes": "MusicDev 0.8.6 fixes the **Update and restart** button and adds **Check for updates** to Studio. Both Studio and Library show when a newer version is available.\n\n**Upgrading from 0.8.4 or 0.8.5?** Those versions can find a release but reject the install request. Download and run **MusicDev-Setup-x64.exe** below once. Setup keeps your Library and Studio data. Future releases can be installed from within MusicDev.\n\n**Bruger du 0.8.4 eller 0.8.5?** Hent og kør **MusicDev-Setup-x64.exe** herunder én gang. Dit bibliotek og dine sangprojekter bevares. Fremover kan du vælge **Søg efter opdateringer** i Studio eller under **Bibliotek → Indstillinger**."
+}
