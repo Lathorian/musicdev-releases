@@ -42,6 +42,8 @@ function inspectRequest(path, trusted) {
   ensure(verify(null, signed, createPublicKey({ key: spki, format: 'der', type: 'spki' }), signature),
     'Publisher signature is invalid.');
   const metadata = JSON.parse(signed.toString('utf8'));
+  ensure(metadata.channel === undefined || metadata.channel === 'public',
+    'The signed installer belongs to a restricted release channel.');
   ensure(metadata.repository === repo && metadata.product === 'MusicDev' && metadata.platform === 'windows-x64' &&
     metadata.version === version && metadata.asset === installer && /^[a-f0-9]{64}$/.test(metadata.sha256) &&
     Number.isSafeInteger(metadata.size) && metadata.size > 0 && metadata.size <= maxInstaller,
